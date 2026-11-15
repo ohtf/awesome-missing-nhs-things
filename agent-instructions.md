@@ -25,7 +25,7 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 - Entries stay short: a status marker, a plain name and colon, then one to three sentences or a short sub-list. Anything longer becomes a brief under `docs/briefs/<slug>.md`, linked from the entry, linking back to its section, and listed on `docs/briefs/index.md`.
 - Every page under `docs/` is in the `nav` in `mkdocs.yml`. The list of sections appears in three places, which must stay in step: the `nav`, the home page (`docs/index.md`) and the README.
 - Nested lists are indented four spaces, which both GitHub and the site render; two spaces render flat on the site.
-- The site's colours come only from the OHTF Surgical Green tint scale in `docs/stylesheets/extra.css`, copied from the openhealthtechnology.org website. Do not add accent colours.
+- The site's colours come only from the OHTF Surgical Green tint scale in `docs/stylesheets/extra.css`, copied from the openhealthtechnology.org website. Do not add accent colours. The header logo (`docs/assets/ohtf-mark-green.svg`, with `ohtf-mark-white.svg` for the dark scheme) and the favicon (`ohtf-avatar.svg`) are unaltered copies of the authoritative files in the OHTF planning material's `logo-graphics/`; replace them only with fresh copies from there, never redraw or recolour them.
 - British English, hyphens not em dashes, no hard-wrapped Markdown, slug-case filenames.
 - The Awesome badge beside the README title is a deliberate exception to house-style's rule against decorative badges, because it marks this as an awesome-style list. Keep it.
 

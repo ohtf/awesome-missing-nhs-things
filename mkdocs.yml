@@ -15,7 +15,7 @@ copyright: >-
 theme:
   variant: modern
   language: en
-  logo: assets/ohtf-avatar.svg
+  logo: assets/ohtf-mark-green.svg
   favicon: assets/ohtf-avatar.svg
   font:
     text: Inter

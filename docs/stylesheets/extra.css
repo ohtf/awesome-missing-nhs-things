@@ -64,6 +64,13 @@
   height: 2.4rem;
 }
 
+/* The header logo is the authoritative OHTF mark (logo-graphics/ohtf-mark-green.svg
+   in the OHTF planning material), copied unaltered. On the dark scheme swap in
+   the matching white mark rather than recolouring the green one. */
+[data-md-color-scheme="slate"] .md-header__button.md-logo img {
+  content: url("../assets/ohtf-mark-white.svg");
+}
+
 /* ---------------------------------------------------------------------------
  * Status markers. javascripts/status-markers.js adds these classes to the
  * inline code that starts each entry (and to the legend table). The marker
