@@ -1,0 +1,17 @@
+# Link checking for s/check-links and the Links workflow. See https://lychee.cli.rs/
+
+cache = true
+max_cache_age = "1d"
+max_concurrency = 8
+max_retries = 2
+timeout = 30
+no_progress = true
+
+# Many NHS, government and publisher sites refuse automated clients (403) or
+# rate-limit them (429). Treat those as reachable rather than broken.
+accept = ["200..=299", "403", "429"]
+
+exclude = [
+  # Social sites that block or require login for automated clients.
+  '^https?://(www\.)?(twitter|x|linkedin)\.com/',
+]

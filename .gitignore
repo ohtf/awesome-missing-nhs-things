@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+tmp/
+
+# Link-checker cache
+.lycheecache
+
+# Disposable agent and browser-automation artefacts
+/.claude
+/.playwright-mcp
+/.playwright
+/playwright-report
+/blob-report
+/test-results
+
+# Retained local-only work (see house-style private-workspace.md)
+/.private
