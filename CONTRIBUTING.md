@@ -43,7 +43,7 @@ Keep entries short. If one needs more than a few sentences of explanation, evide
 
 ## Checks
 
-Run `s/lint` before committing. If you have [lychee](https://lychee.cli.rs/) installed, run `s/check-links` too. CI runs both.
+Run `s/up` to preview your changes in a browser, roughly as GitHub will show them (it needs Python 3). Run `s/lint` before committing. If you have [lychee](https://lychee.cli.rs/) installed, run `s/check-links` too. CI runs both.
 
 ## Sign-off and conduct
 

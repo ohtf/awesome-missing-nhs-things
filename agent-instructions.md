@@ -25,6 +25,7 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 
 ## Workflow
 
+- `s/up` - preview the Markdown roughly as GitHub renders it, on a free local port, with the browser opened and live reload (`--no-open` to skip the browser, `PORT=` to fix the port).
 - `s/lint` - Markdown lint with markdownlint-cli2 (needs Node.js).
 - `s/check-links` - external and internal link check with lychee (needs `lychee` on `PATH`).
 
