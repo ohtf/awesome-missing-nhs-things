@@ -1,0 +1,3 @@
+# Documentation site generator (https://zensical.org), used only to build and
+# preview docs/. Pinned for reproducible builds; bump deliberately.
+zensical==0.1.1

@@ -8,4 +8,4 @@
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
-exec lychee --config lychee.toml "$@" -- README.md CONTRIBUTING.md agent-instructions.md briefs/
+exec lychee --config lychee.toml "$@" -- README.md CONTRIBUTING.md agent-instructions.md docs/

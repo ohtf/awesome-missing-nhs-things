@@ -1,0 +1,142 @@
+/*
+ * SPDX-FileCopyrightText: 2026 Marcus Baw and contributors
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ *
+ * OHTF palette on top of the Zensical modern variant, copied from the
+ * openhealthtechnology.org website so the two look like one family. Keep the
+ * tokens in step with that site's docs/stylesheets/extra.css.
+ *
+ * Brand: Surgical Green (#0D4A3B) and its tint scale, mixed with white in
+ * sRGB. OHTF has chosen no accent colours, so do not add any; use the tints,
+ * white, and black at low opacity for depth.
+ */
+
+:root {
+  --ohtf-surgical-green: #0d4a3b;
+  --ohtf-surgical-green-80: #3d6e62;
+  --ohtf-surgical-green-60: #6e9289;
+  --ohtf-surgical-green-40: #9eb7b1;
+  --ohtf-surgical-green-20: #cfdbd8;
+  --ohtf-surgical-green-10: #e7edeb;
+}
+
+/* Zensical palette hooks for `primary: custom` / `accent: custom`. */
+[data-md-color-scheme="default"][data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ohtf-surgical-green);
+  --md-primary-fg-color--light: var(--ohtf-surgical-green-80);
+  --md-primary-fg-color--dark: var(--ohtf-surgical-green);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+  --md-typeset-a-color: var(--ohtf-surgical-green);
+}
+
+[data-md-color-scheme="default"][data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--ohtf-surgical-green-80);
+  --md-accent-fg-color--transparent: rgba(13, 74, 59, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: rgba(255, 255, 255, 0.7);
+}
+
+[data-md-color-scheme="slate"][data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ohtf-surgical-green);
+  --md-primary-fg-color--light: var(--ohtf-surgical-green-80);
+  --md-primary-fg-color--dark: var(--ohtf-surgical-green);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+  --md-typeset-a-color: var(--ohtf-surgical-green-40);
+}
+
+[data-md-color-scheme="slate"][data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--ohtf-surgical-green-20);
+  --md-accent-fg-color--transparent: rgba(158, 183, 177, 0.12);
+  --md-accent-bg-color: var(--ohtf-surgical-green);
+  --md-accent-bg-color--light: rgba(13, 74, 59, 0.7);
+}
+
+/* Header logo at twice the theme's default size, as on the OHTF website. */
+.md-header__button.md-logo {
+  padding: 0.2rem;
+  margin: 0.1rem 0.2rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.4rem;
+}
+
+/* ---------------------------------------------------------------------------
+ * Status markers. javascripts/status-markers.js adds these classes to the
+ * inline code that starts each entry (and to the legend table). The marker
+ * text stays visible, so colour is never the only signal. The five steps run
+ * from outline-only (nothing exists) to solid green (solved), using only the
+ * brand tints.
+ * ------------------------------------------------------------------------ */
+
+.md-typeset code.amnt-status {
+  display: inline-block;
+  min-width: 5.6em;
+  padding: 0.05em 0.5em;
+  border: 1px solid var(--ohtf-surgical-green-60);
+  border-radius: 1em;
+  font-size: 0.75em;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+  vertical-align: 0.1em;
+  background-color: transparent;
+  color: var(--ohtf-surgical-green);
+}
+
+.md-typeset code.amnt-status--missing {
+  border-style: dashed;
+}
+
+.md-typeset code.amnt-status--restricted {
+  background-color: var(--ohtf-surgical-green-10);
+}
+
+.md-typeset code.amnt-status--partial {
+  background-color: var(--ohtf-surgical-green-20);
+}
+
+.md-typeset code.amnt-status--building {
+  border-color: var(--ohtf-surgical-green-80);
+  background-color: var(--ohtf-surgical-green-80);
+  color: #ffffff;
+}
+
+.md-typeset code.amnt-status--solved {
+  border-color: var(--ohtf-surgical-green);
+  background-color: var(--ohtf-surgical-green);
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code.amnt-status {
+  border-color: var(--ohtf-surgical-green-40);
+  color: var(--ohtf-surgical-green-10);
+}
+
+[data-md-color-scheme="slate"] .md-typeset code.amnt-status--restricted {
+  background-color: rgba(158, 183, 177, 0.12);
+}
+
+[data-md-color-scheme="slate"] .md-typeset code.amnt-status--partial {
+  background-color: rgba(158, 183, 177, 0.28);
+}
+
+[data-md-color-scheme="slate"] .md-typeset code.amnt-status--building {
+  border-color: var(--ohtf-surgical-green-40);
+  background-color: var(--ohtf-surgical-green-40);
+  color: var(--ohtf-surgical-green);
+}
+
+[data-md-color-scheme="slate"] .md-typeset code.amnt-status--solved {
+  border-color: var(--ohtf-surgical-green-10);
+  background-color: var(--ohtf-surgical-green-10);
+  color: var(--ohtf-surgical-green);
+}
+
+/* Give each entry a little more room than an ordinary bullet list. */
+.md-typeset .amnt-entries > li {
+  margin-bottom: 0.9em;
+}

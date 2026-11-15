@@ -1,0 +1,3 @@
+# Rostering and on-call
+
+- `missing` Rota and on-call API: a rostering platform that publishes rotas and on-call lists through an API, so other applications know who the current on-call clinician is for a specialty, with sensible fall-backs. Automatic referral, EPR shortcuts (such as picking the right consultant team when ordering tests) and bleep replacement all depend on it. NHS England's [e-rostering meaningful use standards](https://www.england.nhs.uk/wp-content/uploads/2020/09/E-rostering_meaningful_use_standards.pdf) set expectations for rostering, but there is no national data standard or API.

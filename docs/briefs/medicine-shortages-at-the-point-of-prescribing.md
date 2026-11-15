@@ -1,6 +1,6 @@
 # Medicine shortages at the point of prescribing
 
-Status: `partial`. The national shortage data exists, but it is not machine-readable or public, and prescribers do not see it when they choose a drug.
+Status: `partial`, listed under [Medicines and prescribing](../list/medicines-and-prescribing.md). The national shortage data exists, but it is not machine-readable or public, and prescribers do not see it when they choose a drug.
 
 ## The gap
 

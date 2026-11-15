@@ -1,0 +1,8 @@
+# National platform services
+
+- `partial` Simple, well-documented national APIs: the NHS [API and integration catalogue](https://digital.nhs.uk/developer/api-catalogue) now includes FHIR APIs for e-Referrals, Electronic Prescriptions, demographics (PDS) and GP Connect, and an API for MESH. Developers still need an HSCN connection for most test environments, and onboarding and assurance are heavy going for small teams.
+- `missing` Open client libraries for national services: suppliers each write and maintain their own client libraries for the same national services, and do not share them. Shared, maintained libraries would cut the cost of every integration.
+- `missing` Open implementation of the NHS Warranted Environment: a fully open desktop environment that meets the warranted environment specification, which was the aim of the [NHSbuntu](https://github.com/NHSbuntu/nhsbuntu) project.
+- `partial` National consent platform: the [National Data Opt-out API](https://digital.nhs.uk/developer/api-catalogue/national-data-opt-out-fhir) covers research and planning only. Each trust handles consent for procedures its own way, and there is no general national consent record.
+- `partial` Ambulance and patient transport booking API: the [Booking and Referral Standard](https://digital.nhs.uk/services/booking-and-referral-standard) covers handoffs such as 111 to an emergency department. There is no national API for booking non-emergency patient transport.
+- `missing` Electronic Staff Record API: NHSBSA is building [NHS PeoplePortal](https://www.nhsbsa.nhs.uk/nhs-peopleportal-transformation-programme) to replace ESR. If the new platform had an open, documented API, rostering, training and identity systems could stop re-keying staff data.

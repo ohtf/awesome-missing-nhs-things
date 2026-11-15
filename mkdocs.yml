@@ -1,0 +1,97 @@
+site_name: Awesome Missing NHS Things
+site_url: https://ohtf.github.io/awesome-missing-nhs-things/
+site_description: The software, APIs, open data, components and infrastructure that NHS and UK health and care work needs but doesn't have.
+site_author: Marcus Baw and contributors
+
+repo_url: https://github.com/ohtf/awesome-missing-nhs-things
+repo_name: ohtf/awesome-missing-nhs-things
+edit_uri: edit/main/docs/
+
+copyright: >-
+  Content &copy; 2018-2026 Marcus Baw and contributors, licensed
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+  Styled after the <a href="https://openhealthtechnology.org">Open Health Technology Foundation</a> website.
+
+theme:
+  variant: modern
+  language: en
+  logo: assets/ohtf-avatar.svg
+  favicon: assets/ohtf-avatar.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.action.edit
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: lucide/moon
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: lucide/sun
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/status-markers.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ohtf/awesome-missing-nhs-things
+      name: Awesome Missing NHS Things on GitHub
+    - icon: lucide/globe
+      link: https://openhealthtechnology.org
+      name: Open Health Technology Foundation
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - The list:
+      - Clinical instruments and assessment tools: list/clinical-instruments-and-assessment-tools.md
+      - Clinical calculation and decision support: list/clinical-calculation-and-decision-support.md
+      - Medicines and prescribing: list/medicines-and-prescribing.md
+      - Pathology, imaging and diagnostics: list/pathology-imaging-and-diagnostics.md
+      - Guidance and patient information: list/guidance-and-patient-information.md
+      - Care planning and end of life: list/care-planning-and-end-of-life.md
+      - Health records: list/health-records.md
+      - Reusable interface components: list/reusable-interface-components.md
+      - Terminology and codelists: list/terminology-and-codelists.md
+      - National platform services: list/national-platform-services.md
+      - Staff identity, registers and credentials: list/staff-identity-registers-and-credentials.md
+      - Communications: list/communications.md
+      - Rostering and on-call: list/rostering-and-on-call.md
+      - Organisations, locations and maps: list/organisations-locations-and-maps.md
+      - Operational and performance data: list/operational-and-performance-data.md
+      - Data, testing and AI evaluation: list/data-testing-and-ai-evaluation.md
+      - Clinical safety and governance: list/clinical-safety-and-governance.md
+      - Interoperability: list/interoperability.md
+      - Public health rules as code: list/public-health-rules-as-code.md
+      - Preservation of NHS technical documentation: list/preservation-of-nhs-technical-documentation.md
+  - Briefs:
+      - briefs/index.md
+      - Open clinical instruments: briefs/open-clinical-instruments.md
+      - Medicine shortages at the point of prescribing: briefs/medicine-shortages-at-the-point-of-prescribing.md
+  - Contributing: contributing.md

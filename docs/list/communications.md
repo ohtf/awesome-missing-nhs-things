@@ -1,0 +1,6 @@
+# Communications
+
+- `missing` Crisis communications that reach all clinical staff: during the COVID pandemic it became clear that contacting clinical staff by email depends on their link to a "home organisation". Sessional, locum and bank staff, who may not have one, could not be reached.
+- `partial` Cross-platform NHS email and collaboration: NHSmail is now [NHS.net Connect](https://digital.nhs.uk/services/nhs.net-connect). It is still built on Microsoft 365, which makes it harder to use on some operating systems and devices.
+- `missing` Clinical instant messaging available everywhere: no instant messaging service is reliably available across the whole NHS, apart from consumer and commercial products. Having a different product in every trust and ICB is counterproductive.
+- `missing` Role-based messaging to replace bleeps: bleeps (radio pagers) are still relied on because they are reliable and have a long track record. A bleep represents a role rather than a person: "the on-call medical registrar" is handed over between shifts and gives a single, fixed point of contact for expert help without anyone needing to know who is on. Bleeps can only be replaced by a tested, reliable service that is available everywhere and does the same.

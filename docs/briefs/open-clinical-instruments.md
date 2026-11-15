@@ -1,6 +1,6 @@
 # Open clinical instruments, delivered as code
 
-Status: `restricted` for most instruments, `partial` for a few. Researched in November 2026. Licence terms change, so check the rights holder's current terms before relying on anything below.
+Status: `restricted` for most instruments, `partial` for a few. Listed under [Clinical instruments and assessment tools](../list/clinical-instruments-and-assessment-tools.md). Researched in November 2026. Licence terms change, so check the rights holder's current terms before relying on anything below.
 
 ## The gap
 
@@ -42,4 +42,4 @@ Adult ADHD shows the problem clearly. NHS England estimates that about [2.48 mil
 - An open cognitive screen, designed from scratch and validated in the UK, so that no existing rights holder can have it taken down.
 - Open, validated translations, published under the same terms as the instruments themselves.
 
-Scored instruments raise the same issues as clinical calculators. See the [clinical calculation](../README.md#clinical-calculation-and-decision-support) section, and [`clincalc`](https://github.com/ohtf/clincalc), which requires every calculator to record its distribution licence.
+Scored instruments raise the same issues as clinical calculators. See the [clinical calculation](../list/clinical-calculation-and-decision-support.md) section, and [`clincalc`](https://github.com/ohtf/clincalc), which requires every calculator to record its distribution licence.

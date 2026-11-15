@@ -1,0 +1,5 @@
+# Pathology, imaging and diagnostics
+
+- `partial` Open, machine-readable reference intervals: [Pathology Harmony](https://labmed.org.uk/resource/pathology-harmony---biochemistry.html) agreed common adult ranges, but they are published as documents rather than as a versioned dataset by analyte, age, sex and method. Test codes now exist under the [DAPB4101 pathology standard](https://digital.nhs.uk/data-and-information/information-standards/governance/latest-activity/standards-and-collections/dapb4101-pathology-and-laboratory-medicine-reporting-information-standard), but nobody publishes the ranges centrally.
+- `restricted` Open imaging referral guidance: evidence-based imaging referral guidance ([iRefer](https://www.rcr.ac.uk/our-services/irefer/)) is licensed organisation by organisation, so whether a requesting clinician gets decision support depends on which trust they work in.
+- `missing` Computable genomic test directory: the eligibility criteria in the [National Genomic Test Directory](https://www.england.nhs.uk/publication/national-genomic-test-directories/) are documents, not rules that an order communications system can check.

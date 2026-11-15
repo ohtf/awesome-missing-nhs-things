@@ -14,6 +14,10 @@ tmp/
 # Link-checker cache
 .lycheecache
 
+# Docs site: local virtual environment and build output
+/.venv
+/site
+
 # Disposable agent and browser-automation artefacts
 /.claude
 /.playwright-mcp

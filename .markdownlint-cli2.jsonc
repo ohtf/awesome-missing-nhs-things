@@ -1,0 +1,5 @@
+// Files markdownlint-cli2 should never lint: local environments and build output.
+// Rules live in .markdownlint.json.
+{
+  "ignores": [".venv/**", "site/**", "node_modules/**", ".playwright-mcp/**"]
+}
