@@ -8,7 +8,7 @@ Read it on the site: <https://ohtf.github.io/awesome-missing-nhs-things/>
 
 This is an un-awesome list. [awesome-healthcare](https://github.com/kakoni/awesome-healthcare) collects the good things that exist; this list records what is conspicuously absent, or exists only under a licence, paywall or closed platform that stops anyone else building on it. It is meant for developers looking for something worth building, clinicians who keep running into the same gaps, and anyone deciding what to fund. It is not policy of the [Open Health Technology Foundation](https://openhealthtechnology.org) (OHTF), although several OHTF projects started as entries here.
 
-The list started in 2018. When a gap is filled, its entry stays, marked `solved`, with a link to whoever filled it.
+The list started in 2018. When a gap is filled, its entry stays, marked `solved`, with a link to whoever filled it. The OHTF website tells [the story of the list](https://openhealthtechnology.org/about/awesome-missing-nhs-things/), and how several of its entries became OHTF projects.
 
 ## Status markers
 
