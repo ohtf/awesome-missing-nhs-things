@@ -22,6 +22,7 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 - Never include real patient data, credentials or confidential planning material (partner negotiations, procurement documents, unpublished OHTF decisions).
 - README entries stay short: a status marker, a plain name and colon, then one to three sentences or a short sub-list. Anything longer becomes a brief under `briefs/<slug>.md`, linked from the entry.
 - British English, hyphens not em dashes, no hard-wrapped Markdown, slug-case filenames.
+- The Awesome badge beside the README title is a deliberate exception to house-style's rule against decorative badges, because it marks this as an awesome-style list. Keep it.
 
 ## Workflow
 

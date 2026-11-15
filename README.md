@@ -1,4 +1,4 @@
-# Awesome Missing NHS Things
+# Awesome Missing NHS Things [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of the software, APIs, open data, components and infrastructure that NHS and UK health and care work needs but doesn't have.
 
