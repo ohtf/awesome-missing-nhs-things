@@ -38,6 +38,7 @@ Adult ADHD shows the problem clearly. NHS England estimates that about [2.48 mil
 - A public, machine-readable register of instrument licences, recording for each instrument the rights holder, whether electronic and commercial use is allowed, fees, training requirements, approved translations, and when it was last checked. At present this information is scattered across licensing pages, PDFs and individual permission emails.
 - An open national licence. NHS England could either extend the NCCR to allow open-source redistribution, or buy out the rights to the instruments the NHS uses most and release them under CC BY, as the 4AT's authors did.
 - An open adult ADHD diagnostic interview, mapped to DSM-5 and ICD-11 and validated in UK services, so that per-use licensing does not limit assessment capacity.
+- An open childhood ADHD diagnostic and monitoring tool, validated in a paediatric population and licensed for embedding, so that tracking a child's treatment response does not depend on a licensed scale either.
 - An open cognitive screen, designed from scratch and validated in the UK, so that no existing rights holder can have it taken down.
 - Open, validated translations, published under the same terms as the instruments themselves.
 
