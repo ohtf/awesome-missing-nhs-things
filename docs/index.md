@@ -2,11 +2,21 @@
 description: The software, APIs, open data, components and infrastructure that NHS and UK health and care work needs but doesn't have.
 ---
 
-# Awesome Missing NHS Things
+# Awesome Missing NHS Things [![Awesome](https://awesome.re/badge.svg)](https://awesome.re){ .amnt-awesome-badge }
 
 A curated list of the software, APIs, open data, components and infrastructure that NHS and UK health and care work needs but doesn't have.
 
 This is an un-awesome list. [awesome-healthcare](https://github.com/kakoni/awesome-healthcare) collects the good things that exist; this list records what is conspicuously absent, or exists only under a licence, paywall or closed platform that stops anyone else building on it. It is meant for developers looking for something worth building, clinicians who keep running into the same gaps, and anyone deciding what to fund. It is not policy of the [Open Health Technology Foundation](https://openhealthtechnology.org) (OHTF), although several OHTF projects started as entries here.
+
+<!-- markdownlint-disable MD046 - admonition bodies are indented, not code -->
+
+??? note "What is an awesome list, and why an un-awesome one?"
+
+    Awesome lists are a GitHub tradition that Sindre Sorhus started in 2014 with [sindresorhus/awesome](https://github.com/sindresorhus/awesome): curated lists of the best tools and resources on a subject, marked with the sunglasses badge. There are now awesome lists on most programming subjects and many others, including [awesome-healthcare](https://github.com/kakoni/awesome-healthcare).
+
+    Marcus Baw started this one in 2018 as a partner to awesome-healthcare, turned inside out. That list already covered what exists. In NHS IT the gaps are at least as instructive: things nobody has built, and things that exist but can't be reused. So this list collects those instead, and keeps the sunglasses.
+
+<!-- markdownlint-enable MD046 -->
 
 The list started in 2018. When a gap is filled, its entry stays, marked `solved`, with a link to whoever filled it. The OHTF website tells [the story of the list](https://openhealthtechnology.org/about/awesome-missing-nhs-things/), and how several of its entries became OHTF projects.
 
