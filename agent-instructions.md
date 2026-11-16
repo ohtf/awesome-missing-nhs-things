@@ -60,6 +60,12 @@ Run `s/check-links` when adding or changing links. CI runs all of these, plus zi
 - Before committing research output, open each cited page and check that it says what the entry claims.
 - Follow the house-style [class-wide fix directive](https://github.com/pacharanero/house-style/blob/main/agents.md#fix-the-class-not-just-the-instance): when one entry turns out to be stale, check its neighbours for the same staleness (renamed bodies, retired services, moved URLs).
 
+## Publicity
+
+- Owner: Marcus Baw and contributors; the list lives in the Open Health Technology Foundation's GitHub organisation.
+- Channels: Marcus Baw on Bluesky ([@marcusbaw.com](https://bsky.app/profile/marcusbaw.com)), X ([@marcus_baw](https://x.com/marcus_baw)) and LinkedIn ([marcusbaw](https://www.linkedin.com/in/marcusbaw/)); OHTF on Bluesky ([@openhealthtech.bsky.social](https://bsky.app/profile/openhealthtech.bsky.social)) and X ([@ohtfdotorg](https://x.com/ohtfdotorg)).
+- Announcement conventions: link to the site page for the section or brief rather than the repository. Suggest posts per [house-style publicity.md](https://github.com/pacharanero/house-style/blob/main/publicity.md); never post without approval.
+
 ## Approval Required
 
 Ask before pushing, opening issues or PRs, transferring or renaming the repository, changing its default branch or settings, or contacting any organisation named in the list.
